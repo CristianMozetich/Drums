@@ -60,7 +60,6 @@
     justify-content: start;
     align-items: center;
     left: -300px;
-    transition: 0.5s;
   }
   .navegador > ul > li {
     margin: 20px;
@@ -68,6 +67,7 @@
   }
   .navegador > .fa-solid:hover + ul {
     left: 0;
+    transition: 0.5s;
   }
   .navegador > ul:hover {
     left: 0;
