@@ -85,6 +85,7 @@
 }
 .sobremi_main .contenedor {
   position: relative;
+  z-index: 2;
 }
 .sobremi_main .contenedor .titulo {
   position: absolute;
