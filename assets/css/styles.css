@@ -10,6 +10,9 @@
   align-items: center;
   z-index: 10;
 }
+.navegador .fa-solid {
+  display: none;
+}
 .navegador > ul {
   margin-bottom: 0px;
   width: 700px;
@@ -36,6 +39,20 @@
   color: black;
 }
 
+@media (max-width: 800px) {
+  .navegador {
+    justify-content: start;
+  }
+  .navegador > .fa-solid {
+    display: block;
+    font-size: 45px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .navegador > ul {
+    display: none;
+  }
+}
 .pie {
   height: 250px;
   background-color: #264653;

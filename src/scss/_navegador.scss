@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
+    .fa-solid{
+        display: none;
+    }
     > ul{
         margin-bottom: 0px;
         width: 700px;
@@ -37,3 +40,18 @@
         }
     }
 } 
+
+@media (max-width:800px){
+    .navegador{
+        justify-content: start;
+    }
+    .navegador > .fa-solid{
+        display: block;
+        font-size: 45px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .navegador > ul{
+        display: none;
+    }
+}
