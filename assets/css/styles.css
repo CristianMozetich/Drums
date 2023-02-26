@@ -114,6 +114,17 @@
   font-family: "Rampart One", cursive;
 }
 
+@media (max-width: 1000px) {
+  .titulo {
+    display: none;
+  }
+  .titulo2 {
+    display: none;
+  }
+  .titulo3 {
+    display: none;
+  }
+}
 .preguntas_main {
   margin-top: 100px;
   background-color: black;
